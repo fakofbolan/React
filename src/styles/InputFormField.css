@@ -1,0 +1,10 @@
+.input-form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form-field input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
