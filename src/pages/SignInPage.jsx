@@ -16,7 +16,7 @@ export function SignInPage(props) {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
-    props.onSubmit(formState);
+    props.onSubmit({username: formState, avatarIndex: avatar,});
   }
   function handleUsernameChange(value) {
     setFormState(value);
